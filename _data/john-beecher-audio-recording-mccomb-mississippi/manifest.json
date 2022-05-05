@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "John Beecher audio recording, McComb, Mississippi" ] },
+    "homepage": [
+      {
+        "id": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll1/id/29/rec/5",
+        "type": "Text",
+        "label": { "en": [ "John Beecher audio recording, McComb, Mississippi" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "www.hrc.utexas.edu",
+        "type": "Agent",
+        "label": { "en": [ "Harry Ransom Center" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 649.0,
+        "items": [
+          {
+            "id": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://norman.hrc.utexas.edu/CDMmedia/p15878coll1/29.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 649.0
+                },
+                "target": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
