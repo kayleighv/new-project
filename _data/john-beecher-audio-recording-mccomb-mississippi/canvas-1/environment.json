@@ -1,0 +1,9 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kayleighv.github.io/new-project/john-beecher-audio-recording-mccomb-mississippi/canvas-1/canvas/environment.json",
+  "type": "AnnotationPage",
+  "label": "Environment",
+  "items": [
+
+  ]
+}
