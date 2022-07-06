@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Enter your content here in either HTML or markdown language.
